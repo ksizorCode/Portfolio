@@ -70,9 +70,9 @@ nav ul,
 }
 
 .scroll-x{overflow-x: scroll}
-.galeria{ flex-wrap: nowrap; width: 3600px;}
-.galeria li{ width:307px !important;}
-.galeria img{ width:307px; height: 307px; aspect-ratio: 1 / 1;  object-fit: cover; border-radius: 10px;}
+.galeria{ flex-wrap: nowrap; width: 2600px;}
+.galeria li{ width:200px !important;}
+.galeria img{ width:100%; aspect-ratio: 1 / 1;  object-fit: cover; border-radius: 10px;}
 
 
 .grupo{ padding: 20px 0;}
