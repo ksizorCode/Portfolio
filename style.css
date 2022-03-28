@@ -1,0 +1,40 @@
+:root{
+    --c1:violet;
+}
+
+*{
+    margin: 0;
+box-sizing: border-box;
+}
+
+
+body{
+    font-family: sans-serif;
+
+    max-width: 1200px;
+    margin: 10px auto;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+p a{ text-decoration: underline;}
+
+img{ max-width: 100%;}
+
+nav ul{ list-style: none;}
+
+
+/* flex */
+nav ul,
+.galeria,
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap:8px;
+}
+
+
