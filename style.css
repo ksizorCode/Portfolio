@@ -53,6 +53,8 @@ nav ul,
 header .preheader nav ul{
     justify-content:flex-end;
     gap:20px;
+    opacity: 0.3;
+    padding-top:20px;
     
 }
 
