@@ -36,7 +36,6 @@ p a{ text-decoration: underline;}
 
 img{ max-width: 100%;}
 
-nav ul{ list-style: none; padding-left:0;}
 
 
 
@@ -63,11 +62,22 @@ nav ul{ list-style: none; padding-left:0;}
 nav ul,
 .galeria,
 .flex{
+    list-style: none; padding-left:0;
     display: flex;
     flex-wrap: wrap;
     gap:8px;
     justify-content: space-between;
 }
+
+.scroll-x{overflow-x: scroll}
+.galeria{ flex-wrap: nowrap; width: 3600px;}
+.galeria li{ width:307px !important;}
+.galeria img{ width:307px; height: 307px; object-fit: cover;}
+
+
+.grupo{ padding: 20px 0;}
+.grupo h2{ padding: 20px 0;}
+
 
 header .preheader nav ul{
     justify-content:flex-end;
