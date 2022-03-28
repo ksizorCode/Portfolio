@@ -1,5 +1,6 @@
 :root{
-    --c1:violet;
+    --c1:#610bd9;
+    --bg:;
 }
 
 *{
@@ -8,11 +9,14 @@ box-sizing: border-box;
 }
 
 
+
 body{
     font-family: sans-serif;
 
     max-width: 1200px;
     margin: 10px auto;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #EEE, #EFEFEF);
 }
 
 
@@ -36,5 +40,6 @@ nav ul,
     flex-wrap: wrap;
     gap:8px;
 }
+
 
 
