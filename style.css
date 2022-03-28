@@ -40,6 +40,26 @@ img{ max-width: 100%;}
 nav ul{ list-style: none; padding-left:0;}
 
 
+
+.destacado{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+
+}
+
+.design{}
+.learn{}
+
+.design, .learning{
+    border: solid grey 1px;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+
+
 /* flex */
 nav ul,
 .galeria,
@@ -60,6 +80,7 @@ header .preheader nav ul{
 
 header #header{
     justify-content:space-between;
+    padding-bottom: 16px; ;
 }
 
 header .mainmenu{
@@ -67,7 +88,7 @@ header .mainmenu{
     font-size:20px;
 }
 
-header{ margin-bottom:30px;}
+header{ margin: 20px 0 50px 0;}
 
 
 
